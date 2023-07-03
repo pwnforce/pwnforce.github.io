@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://www.bell-labs.com/'>Nokia Bell Labs</a>
+subtitle: <a href='https://www.bell-labs.com/'>Nokia Bell Labs </a>
 
 profile:
   align: right
