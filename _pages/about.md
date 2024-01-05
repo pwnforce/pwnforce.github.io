@@ -6,7 +6,7 @@ subtitle: <a href='https://www.bell-labs.com/'>Nokia Bell Labs </a>
 
 profile:
   align: right
-  image: pic.png
+  image: pic.jpg
   image_circular: true # crops the image to make it circular
   # address: >
   #   <p>555 your office number</p>
