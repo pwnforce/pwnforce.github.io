@@ -1,84 +1,50 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
-
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
+@inproceedings {259733,
+abbr={RAID'20},
+author = {Majid Salehi and Danny Hughes and Bruno Crispo},
+title = {{μSBS}: Static Binary Sanitization of Bare-metal Embedded Devices for Fault Observability},
+booktitle = {23rd International Symposium on Research in Attacks, Intrusions and Defenses (RAID 2020)},
+year = {2020},
+isbn = {978-1-939133-18-2},
+address = {San Sebastian},
+pages = {381--395},
+url = {https://www.usenix.org/conference/raid2020/presentation/salehi},
+publisher = {USENIX Association},
+dimensions={true},
+  selected={true},
+month = oct,
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
-}
-
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
+@article{SALEHI2022108744,
+abbr={Comp. Net.'22},
+title = {NemesisGuard: Mitigating Interrupt Latency Side Channel Attacks with Static Binary Rewriting},
+journal = {Computer Networks},
+volume = {205},
+pages = {108744},
+year = {2022},
+issn = {1389-1286},
+doi = {https://doi.org/10.1016/j.comnet.2021.108744},
+url = {https://www.sciencedirect.com/science/article/pii/S1389128621005910},
+author = {Majid Salehi and Gilles De Borger and Danny Hughes and Bruno Crispo},
+keywords = {IoT security, Side channel attacks, Static binary instrumentation},
+abstract = {Internet of Things (IoT) is becoming integrated into nearly every aspect of our modern life. Indeed, exploitation of such devices can directly lead to physical consequences in the real world. Previous work has shown that IoT devices can be compromised by exploits in lower software layers such as the Operating System (OS). Embedded Trusted Execution Environments (TEEs) provide a small Trusted Computing Base (TCB) to protect sensitive codes and data in such devices. TEEs assume a strong threat model where even a privileged attacker (e.g. OS) cannot compromise the confidentiality and integrity of the execution. Nevertheless, it has been shown that side channel attacks make it challenging to keep secrets during application execution. Interrupt latency side channel attacks (a.k.a. Nemesis) are a novel type of timing attacks that target embedded TEEs and extract application secrets from them. Nemesis attacks exploit the CPU’s interrupt mechanism to reveal microarchitectural instruction timings from embedded TEEs. Specifically, the attacker measures the latency of a precisely timed interrupt to differentiate between secret-dependent branches. In this paper, we present NemesisGuard, the first mitigation mechanism against such side channel attacks that does not require a modified compiler or hardware and can protect COTS binaries without access to source code. NemesisGuard applies a novel static binary instrumentation technique to balance secret-dependent branches in IoT application binaries. Evaluation of NemesisGuard shows that it mitigates Nemesis side channel attacks effectively and efficiently.},
+dimensions={true},
   selected={true}
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
-}
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif}
-}
+@ARTICLE{9707846,
+abbr={TDSC'22},
+  author={Salehi, Majid and Degani, Luca and Roveri, Marco and Hughes, Danny and Crispo, Bruno},
+  journal={IEEE Transactions on Dependable and Secure Computing}, 
+  title={Discovery and Identification of Memory Corruption Vulnerabilities on Bare-Metal Embedded Devices}, 
+  year={2023},
+  volume={20},
+  number={2},
+  pages={1124-1138},
+  doi={10.1109/TDSC.2022.3149371},
+  dimensions={true},
+  selected={true}
+  }
