@@ -139,10 +139,7 @@ let transTheme = () => {
 
 
 let initTheme = (theme) => {
-  if (theme == null || theme == 'null') {
-    theme = "dark";
-  }
-
+  theme = "dark";
   setTheme(theme);
 };
 
