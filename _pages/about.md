@@ -19,7 +19,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
-I am a senior research scientist at Nokia Bell Labs, working on Zero-Knowledge Proofs in the ‘Decentralized/Trustless Systems’ workstream.
+I am a senior research scientist at Nokia Bell Labs, working on Zero-Knowledge Proofs in the Decentralized/Trustless Systems workstream.
 
 I obtained my Ph.D. at the imec-DistriNet research group at KU Leuven. Before joining DistriNet, I was a research assistant at Data and Network Security Laboratory, located at the Department of Computer Engineering at the Sharif University of Technology.
 
